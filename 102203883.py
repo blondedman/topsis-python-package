@@ -53,12 +53,12 @@ def topsis(data, weights, impacts):
 
 def main():
     # command-line arguments
-    if len(sys.argv) != 4:
-        print("usage: python topsis.py <input_file> <weights> <impacts>")
+    if len(sys.argv) != 5:
+        print("usage: python topsis.py <input_file> <weights> <impacts> <output_file>")
         sys.exit(1)
 
     inp_file = sys.argv[1]
-    out_file = f"{102203883}-result.csv"
+    out_file = sys.argv[4]
     
     weights = sys.argv[2]
     impacts = sys.argv[3]
