@@ -12,5 +12,5 @@ the TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) libr
 </ul>
 
 ## usage
-```python 102203883.py <input_file> <weights> <impacts> <output_file```
-```python 102203883.py 102203883-data.csv "1,1,1,1,1" "+,-,+,+,+" 102203883-result.csv```
+format: ```python 102203883.py <input_file> <weights> <impacts> <output_file``` <br>
+example: ```python 102203883.py 102203883-data.csv "1,1,1,1,1" "+,-,+,+,+" 102203883-result.csv```
